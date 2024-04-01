@@ -1,11 +1,9 @@
-"use client"
-import { ChakraProvider } from "@chakra-ui/react"
-import App, { AppProps } from "next/app"
+import { Theme } from "@radix-ui/themes"
 import React, { FC, PropsWithChildren } from "react"
 
 export const Provider: FC<PropsWithChildren<{}>> = ({ children }) => {
-  return <ChakraProvider>
+  return <Theme radius="medium">
     {children}
-  </ChakraProvider>
+  </Theme>
 }
 

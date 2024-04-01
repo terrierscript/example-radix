@@ -1,3 +1,4 @@
+import '@radix-ui/themes/styles.css'
 import { Provider } from "./AppProvider"
 
 export const metadata = {

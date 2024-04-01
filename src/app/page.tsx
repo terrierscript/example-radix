@@ -1,14 +1,12 @@
-import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import React from 'react'
 import { SampleComponent } from '../components/SampleComponent'
+import { Box } from '@radix-ui/themes'
 
 export default function Home() {
   return (
     <Box>
-      <Container>
-        <SampleComponent />
-      </Container>
+      <SampleComponent />
     </Box>
   )
 }
